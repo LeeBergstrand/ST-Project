@@ -1,0 +1,7 @@
+Test Case (Wiper Mode),Expected Result (Wiper Speed)
+OFF,0
+INTERMITTENT 1,4
+INTERMITTENT 2,6
+INTERMITTENT 3,12
+LOW,30
+HIGH,60
