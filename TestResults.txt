@@ -1,0 +1,76 @@
+--- Information 29-Mar-2016 10:24:46.141 PM   Script start [Script1]
+	line_number = 1
+	script_iter_count = 0
+	dpStore = { WiperMode : WiperSpeed }, { OFF : 0 }, { INTERMITTENT1 : 4 }, { INTERMITTENT2 : 6 }, { INTERMITTENT3 : 12 }, { LOW : 30 }, { HIGH : 60 }
+	script_name = Script1
+	script_id = Script1.java
+	scriptDpName = \TestDatapool2.rftdp
+
+--- Information 29-Mar-2016 10:24:46.344 PM   Start application [The program]
+	name = The program
+	line_number = 32
+	script_name = Script1
+	script_id = Script1.java
+	startapp_type = EXECUTABLE
+	startapp_executable = The program.exe
+	startapp_working_directory = F:\COMP_4980_Software_Testing\project_tests\software\ST-Project-master
+	startapp_arguments =  
+
++++ Pass 29-Mar-2016 10:24:46.813 PM   Verification point [_0_text] passed.
+	vp_type = object_data
+	name = _0_text
+	script_name = Script1
+	line_number = 36
+	script_id = Script1.java
+	baseline = resources\Script1._0_text.base.rftvp
+	expected = Script1.0000._0_text.exp.rftvp
+
++++ Pass 29-Mar-2016 10:24:47.208 PM   Verification point [_4_text] passed.
+	vp_type = object_data
+	name = _4_text
+	script_name = Script1
+	line_number = 41
+	script_id = Script1.java
+	baseline = resources\Script1._4_text.base.rftvp
+	expected = Script1.0000._4_text.exp.rftvp
+
++++ Pass 29-Mar-2016 10:24:47.543 PM   Verification point [_6_text] passed.
+	vp_type = object_data
+	name = _6_text
+	script_name = Script1
+	line_number = 45
+	script_id = Script1.java
+	baseline = resources\Script1._6_text.base.rftvp
+	expected = Script1.0000._6_text.exp.rftvp
+
++++ Pass 29-Mar-2016 10:24:47.868 PM   Verification point [_12_text] passed.
+	vp_type = object_data
+	name = _12_text
+	script_name = Script1
+	line_number = 49
+	script_id = Script1.java
+	baseline = resources\Script1._12_text.base.rftvp
+	expected = Script1.0000._12_text.exp.rftvp
+
++++ Pass 29-Mar-2016 10:24:47.973 PM   Verification point [_30_text] passed.
+	vp_type = object_data
+	name = _30_text
+	script_name = Script1
+	line_number = 52
+	script_id = Script1.java
+	baseline = resources\Script1._30_text.base.rftvp
+	expected = Script1.0000._30_text.exp.rftvp
+
++++ Pass 29-Mar-2016 10:24:48.073 PM   Verification point [_60_text] passed.
+	vp_type = object_data
+	name = _60_text
+	script_name = Script1
+	line_number = 55
+	script_id = Script1.java
+	baseline = resources\Script1._60_text.base.rftvp
+	expected = Script1.0000._60_text.exp.rftvp
+
++++ Pass 29-Mar-2016 10:24:48.143 PM   Script end [Script1]
+	script_name = Script1
+	script_id = Script1.java
+
